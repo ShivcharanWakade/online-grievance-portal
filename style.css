@@ -1,0 +1,94 @@
+/* General Page Style */
+body {
+    font-family: verdana, sans-serif;
+    background-color: #f0f6ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Header/Info Boxes */
+.text-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #dbeaff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Main Content Boxes */
+.container {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Input and Form Elements */
+.line-container {
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #99ccff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #3399ff;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0066cc;
+}
+
+/* Links */
+a {
+    color: #3399ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tables (used in JSP + Student view) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #99ccff;
+    text-align: center;
+}
+
+table th {
+    background-color: #3399ff;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #eef6ff;
+}
